@@ -1,3 +1,5 @@
+---
+---
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -46,7 +48,7 @@ body{
 	-ms-transition: all .2s linear;
 }
 .header{
-	background: url(../images/slider.jpg) no-repeat 85% 31%;
+	background: url({{ site.grosse_image }}) no-repeat 85% 31%;
 }
 .logo{
 	float:left;
@@ -117,16 +119,16 @@ body{
 	line-height:1.8em;
 }
 /*-----*/
-#slideshow { 
-    position: relative; 
+#slideshow {
+    position: relative;
 }
 
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 /*---start-content-----*/
 .welcome-note{
@@ -578,9 +580,9 @@ body{
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	border:1px solid #eee;
-	border-radius:0.3em; 
-	-webkit-border-radius:0.3em; 
-	-moz-border-radius:0.3em; 
+	border-radius:0.3em;
+	-webkit-border-radius:0.3em;
+	-moz-border-radius:0.3em;
 	-o-border-radius:0.3em;
 }
 .ca-content ul li a:hover{

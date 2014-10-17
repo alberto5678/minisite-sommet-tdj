@@ -1,11 +1,20 @@
-# Modifiez ce document
-# Site settings
+# Modifiez ce document pour modifier le site du sommet
+
+# titre du site
 title: Your great title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+
+# description tel qu'il apparaît sur Google
+description:
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
+# grosse image en haut de la page
+grosse_image:
+  http://terredesjeunes.org/sites/terredesjeunes.org/files/imagecache/tdj_full_lightbox_target/Formation%20EF%20JBB%202_0.jpg
+
+# SVP ne modifiez pas ce qui se trouve sous cette ligne
+email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
